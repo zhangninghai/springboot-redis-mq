@@ -1,1 +1,1 @@
-接入文档：http://15.0.18.184:8888/ibank-gateway/ares-outer-gateway/blob/master/readme.md
+基于redis实现生产消费者模式
