@@ -1,0 +1,35 @@
+server:
+  port: 9999
+spring:
+  application:
+    name: springboot-redis-mq
+  redis:
+    host: 127.0.0.1
+    port: 6379
+    #    password:
+    jedis:
+      pool:
+        max-active: 8
+        max-idle: 8
+        max-wait: -1ms
+        min-idle: 0
+
+10086:
+  #主机名
+  host: 127.0.0.1
+  #端口
+  port: 22
+  #连接协议 1-sftp 2-ftp 3-http
+  type: 1
+  #用户名
+  user:
+  #密码 选填有则走密码连接，无则走密钥连接
+  password:
+  #私钥 选填
+  key:
+  #私钥密码 选填
+  passphrase:
+
+
+
+
